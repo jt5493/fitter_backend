@@ -5,6 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Category.destroy_all
+Workout.destroy_all
+
+
+
+
+
 walk = Category.create(name: "walk")
 run = Category.create(name: "run")
 bike = Category.create(name: "bike")
