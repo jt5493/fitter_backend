@@ -15,3 +15,10 @@ strength = Cateogry.create(name: "strength")
 hike = Cateogry.create(name: "hike")
 dance = Cateogry.create(name: "dance")
 aerobics = Cateogry.create(name: "aerobics")
+
+workout_one = Workout.create(
+    title: "walk around the neighborhood",
+    description: "walked for 3 miles",
+    location: "rock-creek neighborhood",
+    category_id: walk.id
+    )
