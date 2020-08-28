@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+walk = Cateogry.create(name: "walk")
+run = Cateogry.create(name: "run")
+bike = Cateogry.create(name: "bike")
+swim = Cateogry.create(name: "swim")
+hiit = Cateogry.create(name: "hiit")
+yoga = Cateogry.create(name: "yoga")
+strength = Cateogry.create(name: "strength")
+hike = Cateogry.create(name: "hike")
+dance = Cateogry.create(name: "dance")
+aerobics = Cateogry.create(name: "aerobics")
