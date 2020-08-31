@@ -32,7 +32,7 @@ class Api::V1::WorkoutsController < ApplicationController
             :title,
             :description,
             :location,
-            category_id
+            :category_id
             )
     end
 
