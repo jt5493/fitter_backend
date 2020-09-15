@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      resources :workouts
+      get '/ping', to: 'workouts#ping'
+      resources :workouts, only: [:index, :update, :create]
 
     end
   end
